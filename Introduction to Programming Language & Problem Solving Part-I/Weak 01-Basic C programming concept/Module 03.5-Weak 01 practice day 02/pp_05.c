@@ -28,6 +28,7 @@ Sample Output 0
 8 No
 9 No
 10 Yes*/
+
 #include <stdio.h>
 #include <string.h>
 #include <math.h>
