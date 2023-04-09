@@ -1,4 +1,4 @@
-// Codeforces problem :: P. First digit !
+// Codeforces problem :: M. Capital or Small or Digit 
 #include<stdio.h>
 int main()
 {
