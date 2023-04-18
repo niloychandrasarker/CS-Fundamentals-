@@ -4,7 +4,7 @@ int main()
       long long int a,b,c,mini;
       int count ;
       int minia,minib,minic;
-      scanf("%lld %lld %d",&a,&b,&c);
+      scanf("%lld %lld %lld",&a,&b,&c);
       if(a<b && a<c)
       {
             printf("%d\n",a);
