@@ -1,1 +1,1 @@
-scanf("%s",a);
+printf("input second string :: ");
