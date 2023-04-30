@@ -12,7 +12,7 @@ int main()
     }
     for(int i=0;i<strlen(s);i++)
     {
-        int value=s[i]-97;
+        int value=s[i];
         if(cnt[value]!=0)
         {
             printf("%c - %d\n",value+'a',cnt[value]);

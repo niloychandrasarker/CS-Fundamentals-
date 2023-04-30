@@ -1,0 +1,2 @@
+ i, charCount[i]);
+        }

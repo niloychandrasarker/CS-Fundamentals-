@@ -1,39 +1,40 @@
 #include<stdio.h>
 int main()
 {
-      long long int a,b,c,mini;
-      int count ;
-      int minia,minib,minic;
-      scanf("%lld %lld %lld",&a,&b,&c);
-      if(a<b && a<c)
+      long long int e,m,b,res=0;
+      scanf("%lld %lld %lld",&e,&m,&b);
+      if(e == 0 || b == 0)
       {
-            printf("%d\n",a);
+            printf("0\n");
       }
-      else if (b<a && b<c)
+      else 
       {
-          mini = b;
-          minia = a-b;  
-          minib = b-b;
-          minic = c-b;
-      
-        if (minib == 0)
-        {
-           int div = minia/2;
-           if (div >= minic)
-           {
-            int sum = minic + mini;
-            printf("%d\n",sum);
-           } 
-           else if (div < minic)
-           {
-            int sum1 = div + mini;
-            printf("%d\n",sum1);
-           }
+         long long int min = e;
+         if (m < min)
+         {
+           min = m;
          }
-      }
-      else if (c<a && c<b)
-      {
-            printf("%d\n",c);
+         if (b < min)
+         {
+            min = b;
+         }
+         e -= min;
+         m -= min;
+         b -= min;
+         res += min;
+
+         if (e/2 < b)
+         {
+            res += e/2;
+         }
+         else
+         {
+            res += b;
+         }
+
+         printf("%lld",res);
+   
+      
       }
       return 0;
 }
