@@ -1,11 +1,15 @@
- #include <stdio.h>
-    void swap(int *p, int *q)
-    {
-        int temp = *p; *p = *q; *q = temp;
-    }
-    void main()
-    {
-        int a = 6, b = 5;
-        swap(&a, &b);
-        printf("%d %d\n", a, b);
-    }
+#include<stdio.h>
+void fun(int x)
+{
+    x=200;
+    printf("fun er x er value - %d\n",x);
+    
+}
+int main()
+{
+    int x=10;
+    // printf("main x er address - %p\n",&x);
+    fun(x);
+    printf("main er x er value - %d\n",x);
+    return 0;
+}
