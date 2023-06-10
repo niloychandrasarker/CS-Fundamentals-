@@ -8,7 +8,7 @@ class Student
       char sec;
       int id;
       
-      Student(int c,char s,int i, char n[])
+      Student(int c,char s,int i, char n[])//constructor
       {
             cls=c;
             sec=s;
