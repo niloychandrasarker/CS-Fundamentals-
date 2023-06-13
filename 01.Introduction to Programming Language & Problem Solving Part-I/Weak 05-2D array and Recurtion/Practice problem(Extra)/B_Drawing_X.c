@@ -16,72 +16,7 @@ int main() {
     // Fill the diagonals with slashes and backslashes
     for (int i = 0; i < n; i++) {
         matrix[i][i] = '\\';
-        matrix[i][n-1-i] = '/';#include <stdio.h>
-        
-        int main() {
-            int a, b;
-            scanf("%d %d", &a, &b);
-        
-            if (a % 2 != 0 && a + b >= 3) {
-                printf("YES\n");
-            } else {
-                printf("NO\n");
-            }
-        
-            return 0;
-        }#include <stdio.h>
-        
-        int main() {
-            int a, b;
-            scanf("%d %d", &a, &b);
-        
-            if (a % 2 != 0 && a + b >= 3) {
-                printf("YES\n");
-            } else {
-                printf("NO\n");
-            }
-        
-            return 0;
-        }#include <stdio.h>
-        
-        int main() {
-            int a, b;
-            scanf("%d %d", &a, &b);
-        
-            if (a % 2 != 0 && a + b >= 3) {
-                printf("YES\n");
-            } else {
-                printf("NO\n");
-            }
-        
-            return 0;
-        }#include <stdio.h>
-        
-        int main() {
-            int a, b;
-            scanf("%d %d", &a, &b);
-        
-            if (a % 2 != 0 && a + b >= 3) {
-                printf("YES\n");
-            } else {
-                printf("NO\n");
-            }
-        
-            return 0;
-        }#include <stdio.h>
-        
-        int main() {
-            int a, b;
-            scanf("%d %d", &a, &b);
-        
-            if (a % 2 != 0 && a + b >= 3) {
-                printf("YES\n");
-            } else {
-                printf("NO\n");
-            }
-        
-            return 0;
-        }
+        matrix[i][n-1-i] = '/';
     }
 
     // Fill the middle row and column with asterisks
