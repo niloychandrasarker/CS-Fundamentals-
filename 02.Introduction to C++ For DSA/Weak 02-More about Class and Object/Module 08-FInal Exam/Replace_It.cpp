@@ -14,7 +14,7 @@ int main() {
         cin >> s >> x;
 
        
-        size_t pos = 0;
+        int pos = 0;
         while ((pos = s.find(x, pos)) != string::npos) {
             s.replace(pos, x.length(), "$");
             pos += 1;
